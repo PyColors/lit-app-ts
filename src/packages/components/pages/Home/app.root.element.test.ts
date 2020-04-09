@@ -1,6 +1,6 @@
 import { html, fixture, expect } from '@open-wc/testing';
 
-import '../src/packages/components/pages/app.root.element';
+import './app.root.element';
 
 describe('AppRootElement', () => {
   let element;

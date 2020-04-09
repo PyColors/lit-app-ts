@@ -1,12 +1,12 @@
 import { html, fixture, expect } from '@open-wc/testing';
 
-import '../src/lit-app-ts.js';
+import '../src/packages/components/pages/Home/app.root.element';
 
-describe('LitAppTs', () => {
+describe('AppRootElement', () => {
   let element;
   beforeEach(async () => {
     element = await fixture(html`
-      <lit-app-ts></lit-app-ts>
+      <app-root></app-root>
     `);
   });
 

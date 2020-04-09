@@ -1,3 +1,2 @@
-// import './components/root/root.element';
-import './components/app.root.element';
-import './style.css';
+import './packages/components/pages/Home/app.root.element';
+import './packages/styles/style.css';

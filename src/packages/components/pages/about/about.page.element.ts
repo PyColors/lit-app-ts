@@ -6,6 +6,7 @@ export class AboutElement extends LitElement {
     return html`
       <main>
         <h1>About</h1>
+        <a href="/">home</a>
       </main>
     `;
   }

@@ -6,7 +6,7 @@ describe('AppRootElement', () => {
   let element;
   beforeEach(async () => {
     element = await fixture(html`
-      <home.page.element></home.page.element>
+      <home-page></home-page>
     `);
   });
 

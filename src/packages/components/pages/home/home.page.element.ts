@@ -1,9 +1,9 @@
 import { LitElement, html, customElement, property } from 'lit-element';
 
-import { style } from './app.root.styles';
+import { style } from './home.page.styles';
 
-@customElement('app-root')
-export class AppRootElement extends LitElement {
+@customElement('home-page')
+export class HomeElement extends LitElement {
   @property({ type: String }) prop1 = '';
   @property({ type: String }) prop2 = '';
 

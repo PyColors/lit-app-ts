@@ -1,6 +1,6 @@
 import { LitElement, html, customElement } from 'lit-element';
 
-@customElement('app-root')
+@customElement('about-page')
 export class AboutElement extends LitElement {
   render() {
     return html`

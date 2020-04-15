@@ -1,12 +1,12 @@
 import { html, fixture, expect } from '@open-wc/testing';
 
-import './app.root.element';
+import './home.page.element';
 
 describe('AppRootElement', () => {
   let element;
   beforeEach(async () => {
     element = await fixture(html`
-      <app-root></app-root>
+      <home.page.element></home.page.element>
     `);
   });
 

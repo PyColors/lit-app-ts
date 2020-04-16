@@ -1,4 +1,4 @@
-import { LitElement, html, customElement, property } from 'lit-element';
+import { LitElement, html, customElement, property, TemplateResult } from 'lit-element';
 
 import { style } from './home.page.styles';
 
@@ -10,7 +10,7 @@ export class HomeElement extends LitElement {
   static get styles() {
     return style;
   }
-  render() {
+  public render(): TemplateResult {
     return html`
       <main>
         <h1>My app</h1>

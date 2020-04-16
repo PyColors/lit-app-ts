@@ -1,8 +1,8 @@
-import { LitElement, html, customElement } from 'lit-element';
+import { LitElement, html, customElement, TemplateResult } from 'lit-element';
 
 @customElement('about-page')
 export class AboutElement extends LitElement {
-  render() {
+  public render(): TemplateResult {
     return html`
       <main>
         <h1>About</h1>

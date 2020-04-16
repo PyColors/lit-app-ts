@@ -19,6 +19,7 @@ class AppRootElement extends LitElement {
     return html`
       <nav class="nav-bar">
         <a href="/">home</a>
+        <a href="/about">about</a>
       </nav>
       <button @click="${this.goToAbout}">learn more about us</button>
       <lit-route><h1>404</h1></lit-route>

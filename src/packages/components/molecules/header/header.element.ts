@@ -19,7 +19,7 @@ export class HeaderElement extends LitElement {
           letter-spacing: 0.4px;
         }
         mwc-top-app-bar-fixed {
-          --mdc-theme-primary: #eee;
+          --mdc-theme-primary: #fff;
           --mdc-theme-on-primary: black;
         }
       `,
@@ -28,12 +28,16 @@ export class HeaderElement extends LitElement {
   public render(): TemplateResult {
     return html`
       <mwc-top-app-bar-fixed>
-        <div slot="title">
-          Py<image src="http://www.pycolors.com/v2/images/haut-de-page-hover.png" />
-        </div>
+        <div slot="title">Py</div>
 
         <mwc-icon-button icon="favorite" slot="actionItems"></mwc-icon-button>
-        <div><!-- content --></div>
+        <div>
+          <!-- content -->
+          <nav class="nav-bar">
+            <a href="/">home</a>
+            <a href="/about">about</a>
+          </nav>
+        </div>
       </mwc-top-app-bar-fixed>
     `;
   }

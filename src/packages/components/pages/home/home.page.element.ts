@@ -13,7 +13,7 @@ export class HomeElement extends LitElement {
   public render(): TemplateResult {
     return html`
       <main>
-        <h1>My app</h1>
+        <h1>LitElement <br />TypeScript App</h1>
 
         <p>Edit <code>src/MyApp.js</code> and save to reload.</p>
         <a
@@ -25,11 +25,6 @@ export class HomeElement extends LitElement {
           Code examples
         </a>
       </main>
-
-      <p class="app-footer">
-        🚽 Made with love by
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/open-wc">open-wc</a>.
-      </p>
     `;
   }
 }

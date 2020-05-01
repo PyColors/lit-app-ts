@@ -1,3 +1,5 @@
+# LitElement starter kit
+
 ## Scripts
 
 - `start` runs your app for development, reloading on file changes

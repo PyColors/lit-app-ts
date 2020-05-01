@@ -12,6 +12,7 @@ export const style = css`
     max-width: 960px;
     margin: 0 auto;
     text-align: left;
+    color: #fff;
   }
 
   main {
@@ -19,6 +20,6 @@ export const style = css`
   }
 
   h1 {
-    font-size: 2.8em;
+    font-size: 3.8em;
   }
 `;

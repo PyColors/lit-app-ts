@@ -14,7 +14,13 @@ export class HomeElement extends LitElement {
     return html`
       <main>
         <h1>LitElement <br />TypeScript App</h1>
-
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell">1</div>
+            <div class="mdc-layout-grid__cell">2</div>
+            <div class="mdc-layout-grid__cell">3</div>
+          </div>
+        </div>
         <p>Edit <code>src/MyApp.js</code> and save to reload.</p>
         <a
           class="app-link"

@@ -8,13 +8,10 @@ export class HeaderElement extends LitElement {
   static get styles() {
     return [
       css`
-      app-header {
-        background-color: white;
-        --app-header-background-rear-layer: {
-          /* The header is blue when condensed *\/
-          background-color: dark;
-        };
-      }
+        app-header {
+          background-color: transparent;
+          color: white;
+        }
       `,
     ];
   }
@@ -22,7 +19,7 @@ export class HeaderElement extends LitElement {
     return html`
       <app-header reveals>
         <app-toolbar>
-          <div main-title>Lit-app</div>
+          <div main-title>Lit App</div>
         </app-toolbar>
       </app-header>
       <app-drawer id="drawer" swipe-open></app-drawer>

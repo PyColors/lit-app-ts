@@ -20,6 +20,7 @@ export class HeaderElement extends LitElement {
       <app-header reveals>
         <app-toolbar>
           <div main-title>Lit App</div>
+          <menu-element></menu-element>
         </app-toolbar>
       </app-header>
       <app-drawer id="drawer" swipe-open></app-drawer>

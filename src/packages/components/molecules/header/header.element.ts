@@ -9,8 +9,12 @@ export class HeaderElement extends LitElement {
     return [
       css`
         app-header {
-          background-color: transparent;
+          background-color: #000;
           color: white;
+        }
+        app-toolbar {
+          width: 1200px;
+          margin: auto;
         }
       `,
     ];

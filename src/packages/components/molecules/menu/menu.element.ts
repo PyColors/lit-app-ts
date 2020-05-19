@@ -11,7 +11,7 @@ export class MenuElement extends LitElement {
         li {
           margin: 0 0 0 20px;
           list-style-type: none;
-          font-size: 1em;
+          font-size: 0.85em;
         }
         a {
           color: #fff;
@@ -29,6 +29,12 @@ export class MenuElement extends LitElement {
       <ul>
         <li>
           <a href="/about">About</a>
+        </li>
+        <li>
+          |
+        </li>
+        <li>
+          <a href="#">Sing In</a>
         </li>
       </ul>
     `;

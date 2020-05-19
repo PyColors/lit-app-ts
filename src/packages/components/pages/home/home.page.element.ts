@@ -14,16 +14,6 @@ export class HomeElement extends LitElement {
     return html`
       <main>
         <h1>LitElement <br />TypeScript App</h1>
-
-        <p>Edit <code>src/MyApp.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/developing/#code-examples"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
       </main>
     `;
   }

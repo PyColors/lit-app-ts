@@ -3,6 +3,7 @@ import { Router } from '@vaadin/router';
 
 import './packages/components/pages/home/home.page.element';
 import './packages/components/pages/about/about.page.element';
+import './packages/components/pages/not-found/not.found.page.element';
 
 @customElement('routes-element')
 class RoutesElement extends LitElement {

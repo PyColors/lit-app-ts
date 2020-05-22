@@ -1,4 +1,4 @@
-# LitElement starter kit
+# LitElement TypeScript App starter kit
 
 ## Scripts
 

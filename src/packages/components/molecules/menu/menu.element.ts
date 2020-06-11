@@ -34,7 +34,7 @@ export class MenuElement extends LitElement {
           |
         </li>
         <li>
-          <a href="#">Sing In</a>
+          <a href="/login">Login</a>
         </li>
       </ul>
     `;

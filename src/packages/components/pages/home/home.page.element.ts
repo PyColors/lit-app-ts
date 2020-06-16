@@ -4,9 +4,6 @@ import { style } from './home.page.styles';
 
 @customElement('home-page')
 export class HomeElement extends LitElement {
-  @property({ type: String }) prop1 = '';
-  @property({ type: String }) prop2 = '';
-
   static get styles() {
     return style;
   }

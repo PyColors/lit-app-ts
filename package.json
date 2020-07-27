@@ -63,6 +63,9 @@
   "author": "lit-app-ts",
   "license": "MIT",
   "dependencies": {
+    "@lion/button": "^0.7.4",
+    "@lion/input": "^0.7.5",
+    "@lion/input-email": "^0.8.5",
     "@material/layout-grid": "^6.0.0",
     "@material/mwc-button": "^0.14.1",
     "@material/mwc-icon-button": "^0.14.1",

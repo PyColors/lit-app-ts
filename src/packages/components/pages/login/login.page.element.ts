@@ -21,7 +21,8 @@ export class HomeElement extends LitElement {
           <h1>Login</h1>
           <input-email-element></input-email-element>
           <br />
-          <input-element type="password" name="Password"></input-element>
+
+          <input-element .label="Prefilled"></input-element>
           <lion-button @click=${() => console.log('click handler')}>Submit</lion-button>
         </form>
       </main>

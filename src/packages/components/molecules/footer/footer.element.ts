@@ -1,7 +1,7 @@
 import { LitElement, html, customElement, css, TemplateResult } from 'lit-element';
 
 @customElement('footer-element')
-export class FooterElement extends LitElement {
+export default class FooterElement extends LitElement {
   static get styles() {
     return [
       css`

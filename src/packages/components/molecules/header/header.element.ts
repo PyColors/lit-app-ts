@@ -4,7 +4,7 @@ import '@polymer/app-layout/app-layout.js';
 import '../menu/menu.element';
 
 @customElement('header-element')
-export class HeaderElement extends LitElement {
+export default class HeaderElement extends LitElement {
   static get styles() {
     return [
       css`

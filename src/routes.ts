@@ -18,7 +18,7 @@ class RoutesElement extends LitElement {
     ]);
   }
 
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <div id="outlet"></div>
     `;

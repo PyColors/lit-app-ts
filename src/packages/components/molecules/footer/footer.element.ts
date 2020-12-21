@@ -16,7 +16,7 @@ export default class FooterElement extends LitElement {
       `,
     ];
   }
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <p class="app-footer">
         🚽 Made with love by

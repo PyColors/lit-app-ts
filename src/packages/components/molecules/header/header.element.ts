@@ -19,7 +19,7 @@ export default class HeaderElement extends LitElement {
       `,
     ];
   }
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <app-header reveals>
         <app-toolbar>

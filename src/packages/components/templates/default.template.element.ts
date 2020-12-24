@@ -6,7 +6,7 @@ import '../molecules/footer';
 
 @customElement('default-template')
 class DefaultTemplateElement extends LitElement {
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <header-element></header-element>
       <routes-element></routes-element>

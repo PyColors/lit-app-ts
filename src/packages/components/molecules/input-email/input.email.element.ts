@@ -14,7 +14,7 @@ export class InputEmailElement extends LitElement {
       `,
     ];
   }
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <lion-input-email
         class="input-email"

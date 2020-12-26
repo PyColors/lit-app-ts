@@ -10,7 +10,7 @@ export class HomeElement extends LitElement {
   static get styles() {
     return style;
   }
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <main>
         <h1>About</h1>

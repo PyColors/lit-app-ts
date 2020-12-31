@@ -7,7 +7,7 @@ export class NotFoundElement extends LitElement {
   static get styles() {
     return style;
   }
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <main>
         <h1>Not found</h1>

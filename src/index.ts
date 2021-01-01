@@ -5,7 +5,7 @@ import './packages/styles/style.css';
 
 @customElement('app-root')
 class AppRootElement extends LitElement {
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <default-template></default-template>
     `;

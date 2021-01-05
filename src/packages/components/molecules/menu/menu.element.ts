@@ -24,7 +24,7 @@ export class MenuElement extends LitElement {
     ];
   }
 
-  public render(): TemplateResult {
+  protected render(): TemplateResult {
     return html`
       <ul>
         <li>

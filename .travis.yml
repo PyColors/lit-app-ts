@@ -1,9 +1,16 @@
 language: node_js
+
 node_js:
   - "stable"
+  
+notifications:
+  email:
+    on_failure: change
+    
 cache:
   directories:
   - node_modules
+  
 script:
   - yarn test
   - yarn build
